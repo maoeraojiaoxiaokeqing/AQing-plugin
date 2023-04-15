@@ -1,4 +1,4 @@
-# AQing-plungin
+# AQing-plugin
 
 #### 介绍
 基于云崽-bot的插件，本人是小白，部分cv了各位大佬的
