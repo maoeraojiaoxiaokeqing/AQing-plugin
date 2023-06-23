@@ -1,4 +1,4 @@
-﻿import { BotApi, AlemonApi, plugin } from '../../AQing-plugin/model/api/api.js'
+import { BotApi, AlemonApi, plugin } from '../../AQing-plugin/model/api/api.js'
 import fs from "fs";
 import cfg from '../../../../Miao-Yunzai/lib/config/config.js'
 import moment from "moment"
@@ -75,7 +75,6 @@ export class qd extends plugin {
             }
             return
         }
-        //睡觉，会被禁言
         else if (hours >= 6 && hours <= 8) {
             experience_ = Math.round(2 + 2 * Math.random())
             json[user_id].experience += experience_
