@@ -91,7 +91,7 @@ export class Update extends plugin {
     }
 
     /** 获取插件提交的最新时间 */
-    let time = await this.getTime('阿晴-plugin')
+    let time = await this.getTime('AQing-plugin')
 
     if (/(Already up[ -]to[ -]date|已经是最新的)/.test(ret.stdout)) {
       await this.reply(`AQing-plugin已经是最新版本\n最后更新时间：${time}`)
