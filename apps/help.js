@@ -17,7 +17,7 @@ export class help extends plugin {
     }
 
 async help (e) {
-  e.reply(`segment.image(/help/help.jpg)`)
+  e.reply(segment.image(`/help/help.jpg)`)
   return true
 }
 }
